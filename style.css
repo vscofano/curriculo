@@ -1,0 +1,266 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5 {
+    margin-top: 7px;
+}
+header{
+    background: black;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+}
+
+/*Menu Navegação*/
+
+#navbarNavAltMarkup{
+    font-size: 15px;
+}
+#navbarNavAltMarkup a{ 
+    color: rgb(255, 255, 255);
+    transition:  color 0.8s;
+}
+
+.navbar {
+    background-color: transparent !important; /* Define o fundo como transparente */
+
+  }
+
+#navbarNavAltMarkup a:hover {
+    color: rgb(2, 135, 252);/* Cor que deseja ao passar o mouse */
+}
+  
+.logo{
+    width: 15%;
+    padding-top: 30px;
+}
+/*End Menu Navegação*/
+
+/*Descrição*/
+#img_perfil{
+    position: absolute;
+    width: 35%;
+    bottom: 0;
+    right: 0;
+}
+@media only screen and (max-width: 2000px) {
+    .titulo {
+      position: relative;
+      left: 200px;
+    }
+  }
+.titulo{
+    position: relative;
+    left: 150px;
+    bottom: 25px;
+}
+.titulo a{
+    color: white;
+    letter-spacing: 15px;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+.titulo a:hover{
+    color: rgb(2, 135, 252);
+}
+.eu{
+    font-size: 25px;
+}
+
+/*End Header*/
+
+/*Start Skils/Educação*/
+.progress-bar {
+  transition: width 2.5s ease; /* Transição suave da largura da barra de progresso em 1 segundo */
+}
+
+
+/*End Skils/Educação*/
+  
+/*Projetos/Experiência*/
+#projetos{
+  background-color: black;
+  padding-bottom: 50px;
+}
+.back_menu{
+  display: none;
+}
+#projeto_1,#projeto_2,#projeto_3,#projeto_4,#projeto_5,#projeto_6,#projeto_7,#projeto_8,#projeto_9,#Pextra_curricular,#outras_experiencias {
+  display: none;
+}
+
+#nav_project button{
+  margin-left: 5px;
+  text-transform: uppercase
+  ;
+}
+
+#nav_project button:hover{
+  background-color: white;
+  color: rgb(0, 144, 240);
+  text-decoration: underline;
+}
+
+#img_experiencia{
+  display: none;
+}
+#card_link a:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+/*animacao seta*/
+@keyframes inviteBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#arrow-icon {
+  animation: inviteBounce 1.5s infinite alternate;
+  cursor: pointer;
+}
+/*ENDanimacao seta*/
+#ler_mais{
+  color: blue;
+}
+#ler_mais:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+#ler_mais_1{
+  color: blue;
+}
+#ler_mais_1:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+/*END Projetos/Experiência*/
+
+/*Rodapé*/
+footer{
+    background-color: black;
+    color: white;
+}
+
+.rodape{
+    list-style: none;
+    text-align: center;
+    
+}
+
+.rodape li{
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    transition: color 0.5s;
+}
+
+.rodape a:hover{
+    color: rgb(2, 135, 252);
+}
+/*END Rodapé*/
+
+ /*Rodapé*/ 
+.roda a{
+    color: white;
+    letter-spacing: 15px;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+.roda a:hover{
+    color: rgb(2, 135, 252);
+}
+
+
+/*Mobile configurações*/
+@media only screen and (max-width:576px){
+  /*Header*/
+  header {
+    .titulo{
+      position: relative;
+      left: 0;
+      width: 95%;
+      margin-left: 10px;
+    }
+    .navbar-toggler img{
+      width: 15%;
+     
+      float: left;
+    }
+    .titulo h1{
+      text-align: center;
+    }
+    .titulo p{
+      text-align: justify;
+      padding: 15px 15px;
+    }
+    #img_perfil{
+      width: 80%;
+      position: static;
+      float: right;
+    }
+    #icon_head{
+      text-align: center;
+    }
+  }
+  /*End Header*/
+
+  /*Skils*/
+    div #educacao_cursos{
+      .passou{
+        margin-bottom: 30px;
+      }
+      #carouselExampleDark{
+        margin-left: 7px;
+      }
+    }
+  /*End Skils*/
+
+  /*Projetos/Experiencias*/
+      #projeto_1,#projeto_2,#projeto_3,#projeto_4,#projeto_5,#projeto_6,#projeto_7,#projeto_8{
+        width: 90%;
+      }
+    .extra{
+     left: 40px;
+     margin-top: 15px;
+    }
+    #nav_button{
+      display: grid;
+    }
+    #nav_project button{
+      margin-top: 10px;
+
+    }
+    .back_menu{
+      padding: 10px;
+      display: block;
+      text-align: center;
+      margin: auto;
+      position: relative;
+      margin-bottom: -25px;
+      background: transparent;
+      border: none;
+    }
+  /*END Projetos/Experiencias*/
+  
+  /*Sobre Mim*/
+  #eu_one{
+    margin-bottom: 20px;
+  }
+  #eu{
+
+  }
+  /*End Sobre Mim*/
+}
