@@ -263,6 +263,19 @@ footer{
   #eu_one{
     margin-bottom: 20px;
   }
+}
 
-  /*End Sobre Mim*/
+/*Tablets*/
+@media only screen and (min-width:600px) and (max-width:1199px){
+  .navbar-toggler img{
+    width: 10%;
+    float: right;
+   
+  }
+  #img_perfil{
+    width: 80%;
+  }
+  #nav_button{
+    display: grid;  
+}
 }
