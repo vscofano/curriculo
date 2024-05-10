@@ -233,7 +233,7 @@ footer{
         width: 90%;
       }
     .extra{
-     left: 40px;
+     margin: auto;
      margin-top: 15px;
     }
     #nav_button{
@@ -252,6 +252,10 @@ footer{
       margin-bottom: -25px;
       background: transparent;
       border: none;
+      top: 5px;
+    }
+    #carouselExampleDark{
+      margin-right: 6px;
     }
   /*END Projetos/Experiencias*/
   
@@ -259,8 +263,6 @@ footer{
   #eu_one{
     margin-bottom: 20px;
   }
-  #eu{
 
-  }
   /*End Sobre Mim*/
 }
