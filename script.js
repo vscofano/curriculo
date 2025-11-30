@@ -31,8 +31,8 @@ function checkScrollAndAnimate(){
             animateProgressBar('skil_6',50,60); 
             animateProgressBar('skil_7',80,40); 
             animateProgressBar('skil_8',25,90); 
-            animateProgressBar('skil_9',50,70); 
-            animateProgressBar('skil_10',40,50); 
+            animateProgressBar('skil_9',60,70); 
+            animateProgressBar('skil_10',70,50); 
             window.removeEventListener('scroll', checkScrollAndAnimate); // Remove o evento de scroll após iniciar a animação
     }
 }
